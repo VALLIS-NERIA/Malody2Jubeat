@@ -1,0 +1,8 @@
+D:\真我的文档\VSProjects\ma2ms\ma2ms\bin\Debug\ma2ms.exe.config
+D:\真我的文档\VSProjects\ma2ms\ma2ms\obj\Debug\ma2ms.csprojResolveAssemblyReference.cache
+D:\真我的文档\VSProjects\ma2ms\ma2ms\bin\Debug\ma2ms.exe
+D:\真我的文档\VSProjects\ma2ms\ma2ms\bin\Debug\ma2ms.pdb
+D:\真我的文档\VSProjects\ma2ms\ma2ms\bin\Debug\Newtonsoft.Json.dll
+D:\真我的文档\VSProjects\ma2ms\ma2ms\bin\Debug\Newtonsoft.Json.xml
+D:\真我的文档\VSProjects\ma2ms\ma2ms\obj\Debug\ma2ms.exe
+D:\真我的文档\VSProjects\ma2ms\ma2ms\obj\Debug\ma2ms.pdb
