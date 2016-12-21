@@ -129,6 +129,7 @@ namespace ma2ms {
                 string s = string.Format("{0,8},{1,-8},{2,8}", note.time, note.type, note.index);
                 sw.WriteLine(s);
             }
+            sw.Close();
         }
     }
 

@@ -22,6 +22,7 @@ namespace ma2ms {
             eveChart ec = new eveChart(mc, 132);
             FileStream fs = new FileStream("1.eve", FileMode.Create, FileAccess.ReadWrite);
             ec.Write(fs);
+            fs.Close();
         }
 
 
