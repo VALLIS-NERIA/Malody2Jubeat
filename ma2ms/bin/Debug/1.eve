@@ -1,20 +1,18 @@
-       0,MEASURE ,       0
-       0,HAKU    ,       0
-       0,TEMPO   ,  489460
+     146,MEASURE ,       0
      146,HAKU    ,       0
+     146,TEMPO   ,  489460
      293,HAKU    ,       0
      440,HAKU    ,       0
-     587,MEASURE ,       0
      587,HAKU    ,       0
      734,HAKU    ,       0
+     881,MEASURE ,       0
      881,HAKU    ,       0
     1027,HAKU    ,       0
-    1174,MEASURE ,       0
     1174,HAKU    ,       0
     1321,HAKU    ,       0
     1468,HAKU    ,       0
+    1615,MEASURE ,       0
     1615,HAKU    ,       0
-    1762,MEASURE ,       0
     1762,HAKU    ,       0
     1908,HAKU    ,       0
     2055,HAKU    ,       0
@@ -24,22 +22,21 @@
     2496,HAKU    ,       0
     2643,HAKU    ,       0
     2789,HAKU    ,       0
-    2936,MEASURE ,       0
     2936,HAKU    ,       0
+    3083,MEASURE ,       0
     3083,HAKU    ,       0
     3230,HAKU    ,       0
     3377,HAKU    ,       0
-    3524,MEASURE ,       0
     3524,HAKU    ,       0
     3670,HAKU    ,       0
+    3817,MEASURE ,       0
     3817,HAKU    ,       0
     3964,HAKU    ,       0
-    4111,MEASURE ,       0
     4111,HAKU    ,       0
     4258,HAKU    ,       0
     4405,HAKU    ,       0
+    4551,MEASURE ,       0
     4551,HAKU    ,       0
-    4698,MEASURE ,       0
     4698,HAKU    ,       0
     4845,HAKU    ,       0
     4992,HAKU    ,       0
@@ -49,1086 +46,979 @@
     5433,HAKU    ,       0
     5579,HAKU    ,       0
     5726,HAKU    ,       0
-    5873,MEASURE ,       0
     5873,HAKU    ,       0
+    6020,MEASURE ,       0
     6020,HAKU    ,       0
     6167,HAKU    ,       0
     6314,HAKU    ,       0
-    6460,MEASURE ,       0
     6460,HAKU    ,       0
     6607,HAKU    ,       0
+    6754,MEASURE ,       0
     6754,HAKU    ,       0
     6901,HAKU    ,       0
-    7048,MEASURE ,       0
     7048,HAKU    ,       0
     7195,HAKU    ,       0
-    7341,MEASURE ,       0
     7341,HAKU    ,       0
-    7341,PLAY    ,       0
-    7341,PLAY    ,       1
-    7341,TEMPO   ,  348837
+    7446,MEASURE ,       0
     7446,HAKU    ,       0
-    7498,PLAY    ,       7
+    7446,TEMPO   ,  348837
+    7446,PLAY    ,       0
+    7446,PLAY    ,       1
     7551,HAKU    ,       0
-    7551,PLAY    ,      13
+    7603,PLAY    ,       7
     7655,HAKU    ,       0
-    7655,PLAY    ,      11
-    7655,PLAY    ,      14
-    7708,PLAY    ,       8
-    7760,MEASURE ,       0
+    7655,PLAY    ,      13
     7760,HAKU    ,       0
-    7760,PLAY    ,       6
+    7760,PLAY    ,      11
+    7760,PLAY    ,      14
+    7812,PLAY    ,       8
     7865,HAKU    ,       0
-    7865,PLAY    ,       9
+    7865,PLAY    ,       6
+    7969,MEASURE ,       0
     7969,HAKU    ,       0
-    7969,PLAY    ,       5
+    7969,PLAY    ,       9
     8074,HAKU    ,       0
-    8074,PLAY    ,      10
-    8126,PLAY    ,       1
-    8126,PLAY    ,       4
-    8179,MEASURE ,       0
+    8074,PLAY    ,       5
     8179,HAKU    ,       0
-    8179,PLAY    ,       6
-    8179,PLAY    ,       9
+    8179,PLAY    ,      10
+    8231,PLAY    ,       1
+    8231,PLAY    ,       4
     8283,HAKU    ,       0
-    8283,PLAY    ,      11
+    8283,PLAY    ,       6
+    8283,PLAY    ,       9
     8388,HAKU    ,       0
-    8388,PLAY    ,       7
+    8388,PLAY    ,      11
+    8493,MEASURE ,       0
     8493,HAKU    ,       0
-    8493,PLAY    ,       3
-    8597,MEASURE ,       0
+    8493,PLAY    ,       7
     8597,HAKU    ,       0
-    8597,PLAY    ,       0
-    8650,PLAY    ,       5
+    8597,PLAY    ,       3
     8702,HAKU    ,       0
-    8702,PLAY    ,       2
+    8702,PLAY    ,       0
+    8754,PLAY    ,       5
     8807,HAKU    ,       0
+    8807,PLAY    ,       2
     8911,HAKU    ,       0
-    8963,PLAY    ,      12
     9016,MEASURE ,       0
     9016,HAKU    ,       0
-    9016,PLAY    ,       6
-    9016,PLAY    ,      15
+    9068,PLAY    ,      12
     9120,HAKU    ,       0
-    9173,PLAY    ,       2
+    9120,PLAY    ,       6
+    9120,PLAY    ,      15
     9225,HAKU    ,       0
-    9225,PLAY    ,       8
-    9225,PLAY    ,      14
+    9277,PLAY    ,       2
     9330,HAKU    ,       0
-    9382,PLAY    ,       7
-    9434,MEASURE ,       0
+    9330,PLAY    ,       8
+    9330,PLAY    ,      14
     9434,HAKU    ,       0
-    9434,PLAY    ,       4
-    9434,PLAY    ,      13
+    9487,PLAY    ,       7
+    9539,MEASURE ,       0
     9539,HAKU    ,       0
-    9539,PLAY    ,      11
-    9591,PLAY    ,      10
+    9539,PLAY    ,       4
+    9539,PLAY    ,      13
     9644,HAKU    ,       0
-    9644,PLAY    ,       9
+    9644,PLAY    ,      11
+    9696,PLAY    ,      10
     9748,HAKU    ,       0
-    9748,PLAY    ,       2
-    9748,PLAY    ,       6
-    9801,PLAY    ,       8
-    9853,MEASURE ,       0
+    9748,PLAY    ,       9
     9853,HAKU    ,       0
-    9853,PLAY    ,       7
+    9853,PLAY    ,       2
+    9853,PLAY    ,       6
+    9905,PLAY    ,       8
     9958,HAKU    ,       0
+    9958,PLAY    ,       7
+   10062,MEASURE ,       0
    10062,HAKU    ,       0
-   10062,PLAY    ,       0
-   10132,PLAY    ,       2
-   10132,PLAY    ,       5
    10167,HAKU    ,       0
-   10202,PLAY    ,      12
-   10272,MEASURE ,       0
+   10167,PLAY    ,       0
+   10237,PLAY    ,       2
+   10237,PLAY    ,       5
    10272,HAKU    ,       0
-   10272,PLAY    ,      10
-   10272,PLAY    ,      11
+   10307,PLAY    ,      12
    10376,HAKU    ,       0
+   10376,PLAY    ,      10
+   10376,PLAY    ,      11
    10481,HAKU    ,       0
+   10586,MEASURE ,       0
    10586,HAKU    ,       0
-   10638,PLAY    ,      10
-   10690,MEASURE ,       0
    10690,HAKU    ,       0
-   10690,PLAY    ,       0
-   10690,PLAY    ,       7
-   10690,PLAY    ,      14
+   10743,PLAY    ,      10
    10795,HAKU    ,       0
+   10795,PLAY    ,       0
+   10795,PLAY    ,       7
+   10795,PLAY    ,      14
    10900,HAKU    ,       0
-   10900,PLAY    ,       6
-   10900,PLAY    ,      12
-   10900,PLAY    ,      15
    11004,HAKU    ,       0
-   11057,PLAY    ,       5
+   11004,PLAY    ,       6
+   11004,PLAY    ,      12
+   11004,PLAY    ,      15
    11109,MEASURE ,       0
    11109,HAKU    ,       0
-   11109,PLAY    ,       3
-   11109,PLAY    ,       4
-   11109,PLAY    ,      11
+   11161,PLAY    ,       5
    11213,HAKU    ,       0
-   11266,PLAY    ,       1
+   11213,PLAY    ,       3
+   11213,PLAY    ,       4
+   11213,PLAY    ,      11
    11318,HAKU    ,       0
-   11318,PLAY    ,       7
-   11318,PLAY    ,      10
+   11370,PLAY    ,       1
    11423,HAKU    ,       0
-   11423,PLAY    ,      12
-   11475,PLAY    ,       9
-   11527,MEASURE ,       0
+   11423,PLAY    ,       7
+   11423,PLAY    ,      10
    11527,HAKU    ,       0
-   11527,PLAY    ,      14
+   11527,PLAY    ,      12
+   11580,PLAY    ,       9
+   11632,MEASURE ,       0
    11632,HAKU    ,       0
-   11632,PLAY    ,       6
+   11632,PLAY    ,      14
    11737,HAKU    ,       0
+   11737,PLAY    ,       6
    11841,HAKU    ,       0
-   11841,PLAY    ,       4
-   11946,MEASURE ,       0
    11946,HAKU    ,       0
-   11946,PLAY    ,       3
-   11998,PLAY    ,       5
+   11946,PLAY    ,       4
    12051,HAKU    ,       0
-   12051,PLAY    ,       0
-   12051,PLAY    ,      11
+   12051,PLAY    ,       3
+   12103,PLAY    ,       5
+   12155,MEASURE ,       0
    12155,HAKU    ,       0
-   12155,PLAY    ,       2
-   12155,PLAY    ,       6
-   12208,PLAY    ,       4
-   12208,PLAY    ,      13
+   12155,PLAY    ,       0
+   12155,PLAY    ,      11
    12260,HAKU    ,       0
-   12260,PLAY    ,       7
-   12260,PLAY    ,      10
-   12312,PLAY    ,       8
-   12312,PLAY    ,       9
-   12365,MEASURE ,       0
+   12260,PLAY    ,       2
+   12260,PLAY    ,       6
+   12312,PLAY    ,       4
+   12312,PLAY    ,      13
    12365,HAKU    ,       0
+   12365,PLAY    ,       7
+   12365,PLAY    ,      10
+   12417,PLAY    ,       8
+   12417,PLAY    ,       9
    12469,HAKU    ,       0
-   12469,PLAY    ,       0
-   12469,PLAY    ,       2
    12574,HAKU    ,       0
-   12574,PLAY    ,       4
-   12626,PLAY    ,       7
-   12626,PLAY    ,      12
+   12574,PLAY    ,       0
+   12574,PLAY    ,       2
+   12679,MEASURE ,       0
    12679,HAKU    ,       0
-   12731,PLAY    ,      11
-   12783,MEASURE ,       0
+   12679,PLAY    ,       4
+   12731,PLAY    ,       7
+   12731,PLAY    ,      12
    12783,HAKU    ,       0
-   12783,PLAY    ,       6
-   12783,PLAY    ,       8
+   12836,PLAY    ,      11
    12888,HAKU    ,       0
-   12888,PLAY    ,      10
+   12888,PLAY    ,       6
+   12888,PLAY    ,       8
    12993,HAKU    ,       0
-   12993,PLAY    ,       0
-   12993,PLAY    ,       5
-   13045,PLAY    ,       3
+   12993,PLAY    ,      10
    13097,HAKU    ,       0
-   13097,PLAY    ,       9
-   13150,PLAY    ,       7
-   13150,PLAY    ,      14
+   13097,PLAY    ,       0
+   13097,PLAY    ,       5
+   13150,PLAY    ,       3
    13202,MEASURE ,       0
    13202,HAKU    ,       0
-   13254,PLAY    ,       4
-   13254,PLAY    ,      12
+   13202,PLAY    ,       9
+   13254,PLAY    ,       7
+   13254,PLAY    ,      14
    13307,HAKU    ,       0
-   13307,PLAY    ,      11
+   13359,PLAY    ,       4
+   13359,PLAY    ,      12
    13411,HAKU    ,       0
-   13411,PLAY    ,       6
-   13411,PLAY    ,       8
+   13411,PLAY    ,      11
    13516,HAKU    ,       0
-   13516,PLAY    ,       7
-   13568,PLAY    ,       1
-   13568,PLAY    ,      10
-   13620,MEASURE ,       0
+   13516,PLAY    ,       6
+   13516,PLAY    ,       8
    13620,HAKU    ,       0
+   13620,PLAY    ,       7
+   13673,PLAY    ,       1
+   13673,PLAY    ,      10
+   13725,MEASURE ,       0
    13725,HAKU    ,       0
-   13725,PLAY    ,      15
    13830,HAKU    ,       0
-   13830,PLAY    ,      12
-   13830,PLAY    ,      14
-   13882,PLAY    ,      11
+   13830,PLAY    ,      15
    13934,HAKU    ,       0
-   13934,PLAY    ,       8
-   13934,PLAY    ,      13
-   13987,PLAY    ,       6
-   13987,PLAY    ,       7
-   14039,MEASURE ,       0
+   13934,PLAY    ,      12
+   13934,PLAY    ,      14
+   13987,PLAY    ,      11
    14039,HAKU    ,       0
-   14091,PLAY    ,       0
+   14039,PLAY    ,       8
+   14039,PLAY    ,      13
+   14091,PLAY    ,       6
+   14091,PLAY    ,       7
    14144,HAKU    ,       0
-   14144,PLAY    ,       2
-   14144,PLAY    ,       9
-   14196,PLAY    ,       4
+   14196,PLAY    ,       0
+   14248,MEASURE ,       0
    14248,HAKU    ,       0
-   14248,PLAY    ,      15
-   14301,PLAY    ,      14
+   14248,PLAY    ,       2
+   14248,PLAY    ,       9
+   14301,PLAY    ,       4
    14353,HAKU    ,       0
-   14405,PLAY    ,       0
-   14458,MEASURE ,       0
+   14353,PLAY    ,      15
+   14405,PLAY    ,      14
    14458,HAKU    ,       0
-   14458,PLAY    ,       1
+   14510,PLAY    ,       0
    14562,HAKU    ,       0
-   14562,PLAY    ,      10
+   14562,PLAY    ,       1
    14667,HAKU    ,       0
-   14667,PLAY    ,       4
-   14719,PLAY    ,       9
+   14667,PLAY    ,      10
+   14772,MEASURE ,       0
    14772,HAKU    ,       0
-   14772,PLAY    ,       2
-   14772,PLAY    ,      11
-   14824,PLAY    ,       8
-   14876,MEASURE ,       0
+   14772,PLAY    ,       4
+   14824,PLAY    ,       9
    14876,HAKU    ,       0
+   14876,PLAY    ,       2
+   14876,PLAY    ,      11
+   14929,PLAY    ,       8
    14981,HAKU    ,       0
    15086,HAKU    ,       0
-   15086,PLAY    ,       6
-   15086,PLAY    ,       7
-   15086,PLAY    ,       9
    15190,HAKU    ,       0
-   15190,PLAY    ,      10
-   15243,PLAY    ,       4
-   15243,PLAY    ,      12
+   15190,PLAY    ,       6
+   15190,PLAY    ,       7
+   15190,PLAY    ,       9
    15295,MEASURE ,       0
    15295,HAKU    ,       0
+   15295,PLAY    ,      10
+   15347,PLAY    ,       4
+   15347,PLAY    ,      12
    15400,HAKU    ,       0
    15504,HAKU    ,       0
-   15557,PLAY    ,       7
    15609,HAKU    ,       0
-   15609,PLAY    ,       2
-   15609,PLAY    ,       9
-   15713,MEASURE ,       0
+   15661,PLAY    ,       7
    15713,HAKU    ,       0
-   15713,PLAY    ,       1
-   15713,PLAY    ,      13
-   15713,TEMPO   ,  337078
-   15764,PLAY    ,      15
+   15713,PLAY    ,       2
+   15713,PLAY    ,       9
+   15815,MEASURE ,       0
    15815,HAKU    ,       0
-   15815,PLAY    ,       8
-   15865,PLAY    ,      11
+   15815,TEMPO   ,  337078
+   15815,PLAY    ,       1
+   15815,PLAY    ,      13
+   15865,PLAY    ,      15
    15916,HAKU    ,       0
-   15916,PLAY    ,       4
-   15966,PLAY    ,       7
+   15916,PLAY    ,       8
+   15966,PLAY    ,      11
    16017,HAKU    ,       0
-   16017,PLAY    ,      12
-   16067,PLAY    ,       6
-   16118,MEASURE ,       0
+   16017,PLAY    ,       4
+   16067,PLAY    ,       7
    16118,HAKU    ,       0
-   16118,PLAY    ,       0
-   16143,PLAY    ,       1
-   16169,PLAY    ,       2
+   16118,PLAY    ,      12
+   16169,PLAY    ,       6
    16219,HAKU    ,       0
-   16219,PLAY    ,       8
-   16270,PLAY    ,       5
+   16219,PLAY    ,       0
+   16244,PLAY    ,       1
+   16270,PLAY    ,       2
+   16320,MEASURE ,       0
    16320,HAKU    ,       0
-   16320,PLAY    ,      10
-   16371,PLAY    ,       7
+   16320,PLAY    ,       8
+   16371,PLAY    ,       5
    16421,HAKU    ,       0
-   16421,PLAY    ,       4
-   16472,PLAY    ,       3
-   16522,MEASURE ,       0
+   16421,PLAY    ,      10
+   16472,PLAY    ,       7
    16522,HAKU    ,       0
-   16522,PLAY    ,       9
-   16522,PLAY    ,      14
+   16522,PLAY    ,       4
+   16573,PLAY    ,       3
    16624,HAKU    ,       0
-   16624,PLAY    ,      15
-   16674,PLAY    ,      11
+   16624,PLAY    ,       9
+   16624,PLAY    ,      14
    16725,HAKU    ,       0
-   16725,PLAY    ,      12
-   16775,PLAY    ,       8
+   16725,PLAY    ,      15
+   16775,PLAY    ,      11
+   16826,MEASURE ,       0
    16826,HAKU    ,       0
-   16826,PLAY    ,      10
-   16876,PLAY    ,       4
-   16927,MEASURE ,       0
+   16826,PLAY    ,      12
+   16876,PLAY    ,       8
    16927,HAKU    ,       0
-   16927,PLAY    ,       9
-   16952,PLAY    ,       6
-   16978,PLAY    ,       7
+   16927,PLAY    ,      10
+   16978,PLAY    ,       4
    17028,HAKU    ,       0
-   17028,PLAY    ,      13
-   17079,PLAY    ,      14
+   17028,PLAY    ,       9
+   17053,PLAY    ,       6
+   17079,PLAY    ,       7
    17129,HAKU    ,       0
-   17129,PLAY    ,       0
-   17129,PLAY    ,       8
-   17180,PLAY    ,      11
+   17129,PLAY    ,      13
+   17180,PLAY    ,      14
    17230,HAKU    ,       0
-   17230,PLAY    ,       5
-   17230,PLAY    ,      12
-   17281,PLAY    ,      10
+   17230,PLAY    ,       0
+   17230,PLAY    ,       8
+   17281,PLAY    ,      11
    17331,MEASURE ,       0
    17331,HAKU    ,       0
-   17331,PLAY    ,       4
-   17331,PLAY    ,       7
+   17331,PLAY    ,       5
+   17331,PLAY    ,      12
+   17382,PLAY    ,      10
    17433,HAKU    ,       0
-   17433,PLAY    ,       2
-   17483,PLAY    ,       6
+   17433,PLAY    ,       4
+   17433,PLAY    ,       7
    17534,HAKU    ,       0
-   17534,PLAY    ,      13
-   17584,PLAY    ,       9
+   17534,PLAY    ,       2
+   17584,PLAY    ,       6
    17635,HAKU    ,       0
-   17635,PLAY    ,       8
-   17685,PLAY    ,       7
-   17736,MEASURE ,       0
+   17635,PLAY    ,      13
+   17685,PLAY    ,       9
    17736,HAKU    ,       0
-   17736,PLAY    ,       0
-   17761,PLAY    ,       5
-   17787,PLAY    ,      10
+   17736,PLAY    ,       8
+   17787,PLAY    ,       7
+   17837,MEASURE ,       0
    17837,HAKU    ,       0
-   17837,PLAY    ,      12
-   17888,PLAY    ,       6
+   17837,PLAY    ,       0
+   17862,PLAY    ,       5
+   17888,PLAY    ,      10
    17938,HAKU    ,       0
-   17938,PLAY    ,       4
-   17938,PLAY    ,       9
-   17989,PLAY    ,       3
+   17938,PLAY    ,      12
+   17989,PLAY    ,       6
    18039,HAKU    ,       0
-   18039,PLAY    ,      13
-   18090,PLAY    ,      15
-   18140,MEASURE ,       0
+   18039,PLAY    ,       4
+   18039,PLAY    ,       9
+   18090,PLAY    ,       3
    18140,HAKU    ,       0
-   18140,PLAY    ,       5
-   18140,PLAY    ,       7
+   18140,PLAY    ,      13
+   18191,PLAY    ,      15
    18242,HAKU    ,       0
-   18242,PLAY    ,       2
-   18242,PLAY    ,      11
-   18292,PLAY    ,       0
+   18242,PLAY    ,       5
+   18242,PLAY    ,       7
+   18343,MEASURE ,       0
    18343,HAKU    ,       0
-   18343,PLAY    ,       6
-   18343,PLAY    ,      10
-   18393,PLAY    ,       8
+   18343,PLAY    ,       2
+   18343,PLAY    ,      11
+   18393,PLAY    ,       0
    18444,HAKU    ,       0
-   18444,PLAY    ,       4
-   18494,PLAY    ,       7
-   18545,MEASURE ,       0
+   18444,PLAY    ,       6
+   18444,PLAY    ,      10
+   18494,PLAY    ,       8
    18545,HAKU    ,       0
-   18545,PLAY    ,      12
-   18570,PLAY    ,      13
-   18596,PLAY    ,      14
+   18545,PLAY    ,       4
+   18596,PLAY    ,       7
    18646,HAKU    ,       0
-   18646,PLAY    ,       9
-   18697,PLAY    ,      11
+   18646,PLAY    ,      12
+   18671,PLAY    ,      13
+   18697,PLAY    ,      14
    18747,HAKU    ,       0
-   18747,PLAY    ,       1
-   18772,PLAY    ,       2
-   18798,PLAY    ,       5
-   18823,PLAY    ,       6
+   18747,PLAY    ,       9
+   18798,PLAY    ,      11
+   18848,MEASURE ,       0
    18848,HAKU    ,       0
-   18848,PLAY    ,       4
-   18848,PLAY    ,       8
-   18899,PLAY    ,       7
-   18899,PLAY    ,      10
-   18949,MEASURE ,       0
+   18848,PLAY    ,       1
+   18874,PLAY    ,       2
+   18899,PLAY    ,       5
+   18924,PLAY    ,       6
    18949,HAKU    ,       0
-   18949,PLAY    ,      12
+   18949,PLAY    ,       4
+   18949,PLAY    ,       8
+   19000,PLAY    ,       7
+   19000,PLAY    ,      10
    19051,HAKU    ,       0
-   19051,PLAY    ,      13
-   19101,PLAY    ,       9
+   19051,PLAY    ,      12
    19152,HAKU    ,       0
-   19152,PLAY    ,      14
+   19152,PLAY    ,      13
+   19202,PLAY    ,       9
    19253,HAKU    ,       0
-   19253,PLAY    ,      15
+   19253,PLAY    ,      14
    19354,MEASURE ,       0
    19354,HAKU    ,       0
-   19354,PLAY    ,       5
-   19354,PLAY    ,       8
-   19405,PLAY    ,      10
+   19354,PLAY    ,      15
    19455,HAKU    ,       0
-   19455,PLAY    ,       0
-   19506,PLAY    ,       7
+   19455,PLAY    ,       5
+   19455,PLAY    ,       8
+   19506,PLAY    ,      10
    19556,HAKU    ,       0
-   19556,PLAY    ,       4
+   19556,PLAY    ,       0
+   19607,PLAY    ,       7
    19657,HAKU    ,       0
-   19657,PLAY    ,       6
-   19657,PLAY    ,      13
-   19708,PLAY    ,       9
-   19758,MEASURE ,       0
+   19657,PLAY    ,       4
    19758,HAKU    ,       0
-   19758,PLAY    ,      11
+   19758,PLAY    ,       6
+   19758,PLAY    ,      13
+   19809,PLAY    ,       9
+   19860,MEASURE ,       0
    19860,HAKU    ,       0
-   19860,PLAY    ,       7
-   19910,PLAY    ,       8
+   19860,PLAY    ,      11
    19961,HAKU    ,       0
-   19961,PLAY    ,       3
-   19961,PLAY    ,      10
-   20011,PLAY    ,      12
+   19961,PLAY    ,       7
+   20011,PLAY    ,       8
    20062,HAKU    ,       0
-   20062,PLAY    ,       6
-   20062,PLAY    ,      15
-   20112,PLAY    ,       0
-   20163,MEASURE ,       0
+   20062,PLAY    ,       3
+   20062,PLAY    ,      10
+   20112,PLAY    ,      12
    20163,HAKU    ,       0
-   20163,PLAY    ,      11
-   20163,PLAY    ,      13
+   20163,PLAY    ,       6
+   20163,PLAY    ,      15
+   20213,PLAY    ,       0
    20264,HAKU    ,       0
-   20264,PLAY    ,       5
-   20264,PLAY    ,      14
-   20315,PLAY    ,       7
+   20264,PLAY    ,      11
+   20264,PLAY    ,      13
+   20365,MEASURE ,       0
    20365,HAKU    ,       0
-   20365,PLAY    ,       4
-   20365,PLAY    ,       9
+   20365,PLAY    ,       5
+   20365,PLAY    ,      14
+   20416,PLAY    ,       7
    20466,HAKU    ,       0
-   20466,PLAY    ,       8
-   20466,PLAY    ,      10
-   20517,PLAY    ,      12
-   20567,MEASURE ,       0
+   20466,PLAY    ,       4
+   20466,PLAY    ,       9
    20567,HAKU    ,       0
-   20567,PLAY    ,       2
-   20567,PLAY    ,      11
+   20567,PLAY    ,       8
+   20567,PLAY    ,      10
+   20618,PLAY    ,      12
    20669,HAKU    ,       0
-   20719,PLAY    ,       7
+   20669,PLAY    ,       2
+   20669,PLAY    ,      11
    20770,HAKU    ,       0
-   20770,PLAY    ,       1
-   20770,PLAY    ,       9
+   20820,PLAY    ,       7
+   20871,MEASURE ,       0
    20871,HAKU    ,       0
-   20871,PLAY    ,       5
-   20871,PLAY    ,      14
-   20921,PLAY    ,       6
-   20972,MEASURE ,       0
+   20871,PLAY    ,       1
+   20871,PLAY    ,       9
    20972,HAKU    ,       0
-   20972,PLAY    ,       0
-   20972,PLAY    ,       3
+   20972,PLAY    ,       5
+   20972,PLAY    ,      14
+   21022,PLAY    ,       6
    21073,HAKU    ,       0
-   21073,PLAY    ,       4
-   21124,PLAY    ,       7
+   21073,PLAY    ,       0
+   21073,PLAY    ,       3
    21174,HAKU    ,       0
-   21174,PLAY    ,       8
-   21174,PLAY    ,       9
+   21174,PLAY    ,       4
+   21225,PLAY    ,       7
    21275,HAKU    ,       0
-   21275,PLAY    ,      12
-   21326,PLAY    ,       3
-   21326,PLAY    ,       6
+   21275,PLAY    ,       8
+   21275,PLAY    ,       9
    21376,MEASURE ,       0
    21376,HAKU    ,       0
-   21376,PLAY    ,       0
-   21427,PLAY    ,       2
+   21376,PLAY    ,      12
+   21427,PLAY    ,       3
+   21427,PLAY    ,       6
    21478,HAKU    ,       0
-   21478,PLAY    ,       4
-   21528,PLAY    ,       5
-   21528,PLAY    ,      10
+   21478,PLAY    ,       0
+   21528,PLAY    ,       2
    21579,HAKU    ,       0
-   21579,PLAY    ,       7
-   21579,PLAY    ,       8
+   21579,PLAY    ,       4
+   21629,PLAY    ,       5
+   21629,PLAY    ,      10
    21680,HAKU    ,       0
-   21680,PLAY    ,      12
-   21730,PLAY    ,       6
-   21781,MEASURE ,       0
+   21680,PLAY    ,       7
+   21680,PLAY    ,       8
    21781,HAKU    ,       0
-   21781,PLAY    ,       0
-   21831,PLAY    ,      11
-   21831,PLAY    ,      14
+   21781,PLAY    ,      12
+   21831,PLAY    ,       6
+   21882,MEASURE ,       0
    21882,HAKU    ,       0
-   21882,PLAY    ,       4
-   21882,PLAY    ,       5
-   21933,PLAY    ,      10
+   21882,PLAY    ,       0
+   21933,PLAY    ,      11
+   21933,PLAY    ,      14
    21983,HAKU    ,       0
-   21983,PLAY    ,       8
+   21983,PLAY    ,       4
+   21983,PLAY    ,       5
+   22034,PLAY    ,      10
    22084,HAKU    ,       0
-   22084,PLAY    ,      12
-   22084,PLAY    ,      15
-   22185,MEASURE ,       0
+   22084,PLAY    ,       8
    22185,HAKU    ,       0
-   22185,PLAY    ,       0
-   22185,PLAY    ,       2
-   22185,PLAY    ,       3
-   22185,PLAY    ,       9
+   22185,PLAY    ,      12
+   22185,PLAY    ,      15
    22287,HAKU    ,       0
-   22337,PLAY    ,       6
-   22337,PLAY    ,      11
+   22287,PLAY    ,       0
+   22287,PLAY    ,       2
+   22287,PLAY    ,       3
+   22287,PLAY    ,       9
+   22388,MEASURE ,       0
    22388,HAKU    ,       0
-   22388,PLAY    ,       8
-   22438,PLAY    ,       7
-   22438,PLAY    ,      10
+   22438,PLAY    ,       6
+   22438,PLAY    ,      11
    22489,HAKU    ,       0
-   22489,PLAY    ,      12
-   22539,PLAY    ,      15
-   22590,MEASURE ,       0
+   22489,PLAY    ,       8
+   22539,PLAY    ,       7
+   22539,PLAY    ,      10
    22590,HAKU    ,       0
-   22590,PLAY    ,       0
-   22640,PLAY    ,       2
+   22590,PLAY    ,      12
+   22640,PLAY    ,      15
    22691,HAKU    ,       0
-   22691,PLAY    ,       4
-   22742,PLAY    ,       6
-   22742,PLAY    ,      11
+   22691,PLAY    ,       0
+   22742,PLAY    ,       2
    22792,HAKU    ,       0
-   22792,PLAY    ,       8
-   22843,PLAY    ,       7
+   22792,PLAY    ,       4
+   22843,PLAY    ,       6
+   22843,PLAY    ,      11
+   22893,MEASURE ,       0
    22893,HAKU    ,       0
-   22893,PLAY    ,      12
-   22944,PLAY    ,      10
-   22944,PLAY    ,      14
-   22994,MEASURE ,       0
+   22893,PLAY    ,       8
+   22944,PLAY    ,       7
    22994,HAKU    ,       0
-   22994,PLAY    ,       0
-   22994,PLAY    ,       3
-   22994,PLAY    ,       5
+   22994,PLAY    ,      12
+   23045,PLAY    ,      10
+   23045,PLAY    ,      14
    23096,HAKU    ,       0
-   23146,PLAY    ,       2
+   23096,PLAY    ,       0
+   23096,PLAY    ,       3
+   23096,PLAY    ,       5
    23197,HAKU    ,       0
-   23197,PLAY    ,       8
-   23197,PLAY    ,       9
-   23247,PLAY    ,       6
+   23247,PLAY    ,       2
    23298,HAKU    ,       0
-   23298,PLAY    ,      12
-   23298,PLAY    ,      14
-   23298,PLAY    ,      15
+   23298,PLAY    ,       8
+   23298,PLAY    ,       9
+   23348,PLAY    ,       6
    23399,MEASURE ,       0
    23399,HAKU    ,       0
-   23399,PLAY    ,       0
-   23449,PLAY    ,       7
-   23449,PLAY    ,      10
+   23399,PLAY    ,      12
+   23399,PLAY    ,      14
+   23399,PLAY    ,      15
    23500,HAKU    ,       0
-   23500,PLAY    ,       4
-   23551,PLAY    ,      11
+   23500,PLAY    ,       0
+   23551,PLAY    ,       7
+   23551,PLAY    ,      10
    23601,HAKU    ,       0
-   23601,PLAY    ,       8
+   23601,PLAY    ,       4
+   23652,PLAY    ,      11
    23702,HAKU    ,       0
-   23702,PLAY    ,      12
-   23702,PLAY    ,      14
-   23803,MEASURE ,       0
+   23702,PLAY    ,       8
    23803,HAKU    ,       0
-   23803,PLAY    ,       0
-   23803,PLAY    ,       3
+   23803,PLAY    ,      12
+   23803,PLAY    ,      14
+   23905,MEASURE ,       0
    23905,HAKU    ,       0
-   23955,PLAY    ,       7
+   23905,PLAY    ,       0
+   23905,PLAY    ,       3
    24006,HAKU    ,       0
-   24006,PLAY    ,       5
-   24006,PLAY    ,       8
-   24056,PLAY    ,      10
+   24056,PLAY    ,       7
    24107,HAKU    ,       0
-   24107,PLAY    ,       9
-   24107,PLAY    ,      12
-   24208,MEASURE ,       0
+   24107,PLAY    ,       5
+   24107,PLAY    ,       8
+   24157,PLAY    ,      10
    24208,HAKU    ,       0
-   24208,PLAY    ,       0
-   24258,PLAY    ,       6
+   24208,PLAY    ,       9
+   24208,PLAY    ,      12
    24309,HAKU    ,       0
-   24309,PLAY    ,       2
-   24309,PLAY    ,       4
-   24360,PLAY    ,      11
+   24309,PLAY    ,       0
+   24360,PLAY    ,       6
+   24410,MEASURE ,       0
    24410,HAKU    ,       0
-   24410,PLAY    ,       8
+   24410,PLAY    ,       2
+   24410,PLAY    ,       4
+   24461,PLAY    ,      11
    24511,HAKU    ,       0
-   24511,PLAY    ,      12
-   24562,PLAY    ,       7
-   24562,PLAY    ,      10
-   24612,MEASURE ,       0
+   24511,PLAY    ,       8
    24612,HAKU    ,       0
-   24612,PLAY    ,       0
-   24612,PLAY    ,       5
-   24663,PLAY    ,       3
+   24612,PLAY    ,      12
+   24663,PLAY    ,       7
+   24663,PLAY    ,      10
    24713,HAKU    ,       0
-   24713,PLAY    ,       4
-   24713,PLAY    ,       9
+   24713,PLAY    ,       0
+   24713,PLAY    ,       5
+   24764,PLAY    ,       3
    24815,HAKU    ,       0
-   24815,PLAY    ,       2
-   24815,PLAY    ,       8
+   24815,PLAY    ,       4
+   24815,PLAY    ,       9
+   24916,MEASURE ,       0
    24916,HAKU    ,       0
-   24916,PLAY    ,      10
-   24916,PLAY    ,      12
-   24916,PLAY    ,      15
-   24966,PLAY    ,       7
-   25017,MEASURE ,       0
+   24916,PLAY    ,       2
+   24916,PLAY    ,       8
    25017,HAKU    ,       0
-   25017,PLAY    ,       0
-   25067,PLAY    ,       3
+   25017,PLAY    ,      10
+   25017,PLAY    ,      12
+   25017,PLAY    ,      15
+   25067,PLAY    ,       7
    25118,HAKU    ,       0
-   25118,PLAY    ,       5
-   25118,PLAY    ,       9
+   25118,PLAY    ,       0
+   25169,PLAY    ,       3
    25219,HAKU    ,       0
-   25219,PLAY    ,       8
-   25219,PLAY    ,      13
-   25270,PLAY    ,       6
+   25219,PLAY    ,       5
+   25219,PLAY    ,       9
    25320,HAKU    ,       0
-   25320,PLAY    ,       7
-   25320,PLAY    ,      11
-   25320,PLAY    ,      12
+   25320,PLAY    ,       8
+   25320,PLAY    ,      13
+   25371,PLAY    ,       6
    25421,MEASURE ,       0
    25421,HAKU    ,       0
-   25421,PLAY    ,       0
-   25421,PLAY    ,       3
-   25472,PLAY    ,       5
+   25421,PLAY    ,       7
+   25421,PLAY    ,      11
+   25421,PLAY    ,      12
    25522,HAKU    ,       0
-   25522,PLAY    ,       2
-   25573,PLAY    ,       9
+   25522,PLAY    ,       0
+   25522,PLAY    ,       3
+   25573,PLAY    ,       5
    25624,HAKU    ,       0
-   25624,PLAY    ,       4
-   25624,PLAY    ,       8
-   25674,PLAY    ,       7
+   25624,PLAY    ,       2
+   25674,PLAY    ,       9
    25725,HAKU    ,       0
-   25725,PLAY    ,      10
-   25775,PLAY    ,      12
-   25775,PLAY    ,      13
-   25826,MEASURE ,       0
+   25725,PLAY    ,       4
+   25725,PLAY    ,       8
+   25775,PLAY    ,       7
    25826,HAKU    ,       0
-   25826,PLAY    ,       6
-   25826,PLAY    ,      15
-   25876,PLAY    ,       0
+   25826,PLAY    ,      10
+   25876,PLAY    ,      12
+   25876,PLAY    ,      13
+   25927,MEASURE ,       0
    25927,HAKU    ,       0
-   25927,PLAY    ,       5
-   25978,PLAY    ,      11
+   25927,PLAY    ,       6
+   25927,PLAY    ,      15
+   25978,PLAY    ,       0
    26028,HAKU    ,       0
-   26028,PLAY    ,       8
-   26079,PLAY    ,       2
-   26079,PLAY    ,      14
+   26028,PLAY    ,       5
+   26079,PLAY    ,      11
    26129,HAKU    ,       0
-   26230,MEASURE ,       0
+   26129,PLAY    ,       8
+   26180,PLAY    ,       2
+   26180,PLAY    ,      14
    26230,HAKU    ,       0
-   26230,PLAY    ,       1
-   26230,PLAY    ,       3
-   26281,PLAY    ,       4
    26331,HAKU    ,       0
-   26331,PLAY    ,       9
-   26382,PLAY    ,      12
+   26331,PLAY    ,       1
+   26331,PLAY    ,       3
+   26382,PLAY    ,       4
+   26433,MEASURE ,       0
    26433,HAKU    ,       0
-   26433,PLAY    ,       7
-   26433,PLAY    ,      10
-   26483,PLAY    ,       0
+   26433,PLAY    ,       9
+   26483,PLAY    ,      12
    26534,HAKU    ,       0
-   26534,PLAY    ,       8
-   26584,PLAY    ,      15
-   26635,MEASURE ,       0
+   26534,PLAY    ,       7
+   26534,PLAY    ,      10
+   26584,PLAY    ,       0
    26635,HAKU    ,       0
-   26635,PLAY    ,       2
-   26635,PLAY    ,       3
-   26685,PLAY    ,       4
+   26635,PLAY    ,       8
+   26685,PLAY    ,      15
    26736,HAKU    ,       0
-   26736,PLAY    ,       5
-   26787,PLAY    ,      10
-   26787,PLAY    ,      11
+   26736,PLAY    ,       2
+   26736,PLAY    ,       3
+   26787,PLAY    ,       4
    26837,HAKU    ,       0
-   26837,PLAY    ,       0
-   26862,PLAY    ,       1
-   26888,PLAY    ,       6
-   26888,PLAY    ,      14
+   26837,PLAY    ,       5
+   26888,PLAY    ,      10
+   26888,PLAY    ,      11
+   26938,MEASURE ,       0
    26938,HAKU    ,       0
-   27039,MEASURE ,       0
+   26938,PLAY    ,       0
+   26963,PLAY    ,       1
+   26989,PLAY    ,       6
+   26989,PLAY    ,      14
    27039,HAKU    ,       0
-   27039,PLAY    ,       7
-   27039,PLAY    ,       8
-   27039,PLAY    ,      13
    27140,HAKU    ,       0
-   27140,PLAY    ,       2
-   27140,PLAY    ,       3
-   27140,PLAY    ,      12
+   27140,PLAY    ,       7
+   27140,PLAY    ,       8
+   27140,PLAY    ,      13
    27242,HAKU    ,       0
-   27242,PLAY    ,       0
-   27242,PLAY    ,       5
-   27242,PLAY    ,      10
+   27242,PLAY    ,       2
+   27242,PLAY    ,       3
+   27242,PLAY    ,      12
    27343,HAKU    ,       0
-   27343,PLAY    ,       1
-   27343,PLAY    ,       4
-   27343,PLAY    ,      11
-   27343,PLAY    ,      15
+   27343,PLAY    ,       0
+   27343,PLAY    ,       5
+   27343,PLAY    ,      10
    27444,MEASURE ,       0
    27444,HAKU    ,       0
-   27444,PLAY    ,       7
-   27444,PLAY    ,       8
-   27444,PLAY    ,      13
+   27444,PLAY    ,       1
+   27444,PLAY    ,       4
+   27444,PLAY    ,      11
+   27444,PLAY    ,      15
    27545,HAKU    ,       0
-   27545,PLAY    ,       6
-   27545,PLAY    ,      14
-   27596,PLAY    ,       9
+   27545,PLAY    ,       7
+   27545,PLAY    ,       8
+   27545,PLAY    ,      13
    27646,HAKU    ,       0
-   27646,PLAY    ,       3
-   27646,PLAY    ,      10
+   27646,PLAY    ,       6
+   27646,PLAY    ,      14
+   27697,PLAY    ,       9
    27747,HAKU    ,       0
-   27747,PLAY    ,       0
-   27747,PLAY    ,       4
-   27798,PLAY    ,      11
-   27848,MEASURE ,       0
+   27747,PLAY    ,       3
+   27747,PLAY    ,      10
    27848,HAKU    ,       0
-   27848,PLAY    ,       5
-   27848,PLAY    ,      12
+   27848,PLAY    ,       0
+   27848,PLAY    ,       4
+   27899,PLAY    ,      11
+   27949,MEASURE ,       0
    27949,HAKU    ,       0
-   28000,PLAY    ,       7
+   27949,PLAY    ,       5
+   27949,PLAY    ,      12
    28051,HAKU    ,       0
-   28051,PLAY    ,       1
-   28051,PLAY    ,      13
+   28101,PLAY    ,       7
    28152,HAKU    ,       0
-   28202,PLAY    ,      10
-   28253,MEASURE ,       0
+   28152,PLAY    ,       1
+   28152,PLAY    ,      13
    28253,HAKU    ,       0
-   28253,PLAY    ,       0
-   28253,PLAY    ,      12
+   28303,PLAY    ,      10
    28354,HAKU    ,       0
-   28354,PLAY    ,       5
+   28354,PLAY    ,       0
+   28354,PLAY    ,      12
+   28455,MEASURE ,       0
    28455,HAKU    ,       0
+   28455,PLAY    ,       5
    28556,HAKU    ,       0
-   28556,PLAY    ,       8
-   28607,PLAY    ,       9
-   28657,MEASURE ,       0
    28657,HAKU    ,       0
-   28657,PLAY    ,       7
-   28657,PLAY    ,      15
+   28657,PLAY    ,       8
+   28708,PLAY    ,       9
    28758,HAKU    ,       0
-   28758,PLAY    ,       4
-   28758,PLAY    ,       6
+   28758,PLAY    ,       7
+   28758,PLAY    ,      15
    28860,HAKU    ,       0
-   28860,PLAY    ,       5
-   28860,PLAY    ,      13
-   28910,PLAY    ,      11
+   28860,PLAY    ,       4
+   28860,PLAY    ,       6
+   28961,MEASURE ,       0
    28961,HAKU    ,       0
-   28961,PLAY    ,       1
-   28961,PLAY    ,       8
-   29062,MEASURE ,       0
+   28961,PLAY    ,       5
+   28961,PLAY    ,      13
+   29011,PLAY    ,      11
    29062,HAKU    ,       0
-   29062,PLAY    ,       0
-   29062,PLAY    ,      15
+   29062,PLAY    ,       1
+   29062,PLAY    ,       8
    29163,HAKU    ,       0
-   29163,PLAY    ,       3
-   29163,PLAY    ,      12
+   29163,PLAY    ,       0
+   29163,PLAY    ,      15
    29264,HAKU    ,       0
-   29264,PLAY    ,       5
-   29264,PLAY    ,      10
+   29264,PLAY    ,       3
+   29264,PLAY    ,      12
    29365,HAKU    ,       0
-   29365,PLAY    ,       7
-   29416,PLAY    ,       8
+   29365,PLAY    ,       5
+   29365,PLAY    ,      10
    29466,MEASURE ,       0
    29466,HAKU    ,       0
-   29466,PLAY    ,       4
-   29466,PLAY    ,      11
+   29466,PLAY    ,       7
+   29517,PLAY    ,       8
    29567,HAKU    ,       0
-   29618,PLAY    ,       6
+   29567,PLAY    ,       4
+   29567,PLAY    ,      11
    29669,HAKU    ,       0
-   29669,PLAY    ,       1
-   29669,PLAY    ,      13
-   29719,PLAY    ,      12
+   29719,PLAY    ,       6
    29770,HAKU    ,       0
-   29770,PLAY    ,      10
-   29820,PLAY    ,       8
-   29871,MEASURE ,       0
+   29770,PLAY    ,       1
+   29770,PLAY    ,      13
+   29820,PLAY    ,      12
    29871,HAKU    ,       0
-   29871,PLAY    ,       2
-   29871,PLAY    ,       3
+   29871,PLAY    ,      10
+   29921,PLAY    ,       8
+   29972,MEASURE ,       0
    29972,HAKU    ,       0
-   30022,PLAY    ,       0
+   29972,PLAY    ,       2
+   29972,PLAY    ,       3
    30073,HAKU    ,       0
-   30073,PLAY    ,       7
-   30073,PLAY    ,      11
-   30124,PLAY    ,       4
+   30124,PLAY    ,       0
    30174,HAKU    ,       0
-   30174,PLAY    ,      10
-   30225,PLAY    ,       9
-   30275,MEASURE ,       0
+   30174,PLAY    ,       7
+   30174,PLAY    ,      11
+   30225,PLAY    ,       4
    30275,HAKU    ,       0
-   30275,PLAY    ,       8
-   30275,PLAY    ,      14
+   30275,PLAY    ,      10
+   30326,PLAY    ,       9
    30376,HAKU    ,       0
-   30376,PLAY    ,       0
-   30376,PLAY    ,       6
-   30427,PLAY    ,      13
+   30376,PLAY    ,       8
+   30376,PLAY    ,      14
+   30478,MEASURE ,       0
    30478,HAKU    ,       0
-   30528,PLAY    ,       4
+   30478,PLAY    ,       0
+   30478,PLAY    ,       6
+   30528,PLAY    ,      13
    30579,HAKU    ,       0
-   30579,PLAY    ,       3
-   30579,PLAY    ,      11
-   30680,MEASURE ,       0
+   30629,PLAY    ,       4
    30680,HAKU    ,       0
-   30680,PLAY    ,       5
-   30730,PLAY    ,      10
+   30680,PLAY    ,       3
+   30680,PLAY    ,      11
    30781,HAKU    ,       0
-   30831,PLAY    ,       8
+   30781,PLAY    ,       5
+   30831,PLAY    ,      10
    30882,HAKU    ,       0
-   30882,PLAY    ,       7
-   30933,PLAY    ,       4
+   30933,PLAY    ,       8
+   30983,MEASURE ,       0
    30983,HAKU    ,       0
-   30983,PLAY    ,      11
-   30983,PLAY    ,      15
-   31034,PLAY    ,      12
-   31084,MEASURE ,       0
+   30983,PLAY    ,       7
+   31034,PLAY    ,       4
    31084,HAKU    ,       0
-   31084,PLAY    ,       3
-   31084,PLAY    ,       6
+   31084,PLAY    ,      11
+   31084,PLAY    ,      15
+   31135,PLAY    ,      12
    31185,HAKU    ,       0
-   31185,PLAY    ,       0
-   31185,PLAY    ,       8
-   31236,PLAY    ,       7
+   31185,PLAY    ,       3
+   31185,PLAY    ,       6
    31287,HAKU    ,       0
-   31337,PLAY    ,      11
+   31287,PLAY    ,       0
+   31287,PLAY    ,       8
+   31337,PLAY    ,       7
    31388,HAKU    ,       0
-   31388,PLAY    ,       2
-   31388,PLAY    ,       4
-   31388,PLAY    ,      10
+   31438,PLAY    ,      11
    31489,MEASURE ,       0
    31489,HAKU    ,       0
+   31489,PLAY    ,       2
+   31489,PLAY    ,       4
+   31489,PLAY    ,      10
    31590,HAKU    ,       0
-   31590,PLAY    ,       5
    31691,HAKU    ,       0
+   31691,PLAY    ,       5
    31792,HAKU    ,       0
-   31792,PLAY    ,      15
-   31843,PLAY    ,       8
-   31893,MEASURE ,       0
    31893,HAKU    ,       0
-   31893,PLAY    ,       6
-   31893,PLAY    ,       7
+   31893,PLAY    ,      15
+   31944,PLAY    ,       8
+   31994,MEASURE ,       0
    31994,HAKU    ,       0
-   31994,PLAY    ,       3
-   31994,PLAY    ,      11
-   32045,PLAY    ,       5
-   32045,PLAY    ,      13
+   31994,PLAY    ,       6
+   31994,PLAY    ,       7
    32096,HAKU    ,       0
-   32146,PLAY    ,       9
+   32096,PLAY    ,       3
+   32096,PLAY    ,      11
+   32146,PLAY    ,       5
+   32146,PLAY    ,      13
    32197,HAKU    ,       0
-   32197,PLAY    ,       2
-   32247,PLAY    ,       0
-   32298,MEASURE ,       0
+   32247,PLAY    ,       9
    32298,HAKU    ,       0
-   32298,PLAY    ,       7
-   32348,PLAY    ,       1
+   32298,PLAY    ,       2
+   32348,PLAY    ,       0
    32399,HAKU    ,       0
-   32399,PLAY    ,       8
-   32449,PLAY    ,      11
-   32449,PLAY    ,      15
+   32399,PLAY    ,       7
+   32449,PLAY    ,       1
+   32500,MEASURE ,       0
    32500,HAKU    ,       0
-   32551,PLAY    ,       9
-   32551,PLAY    ,      12
+   32500,PLAY    ,       8
+   32551,PLAY    ,      11
+   32551,PLAY    ,      15
    32601,HAKU    ,       0
-   32601,PLAY    ,      10
-   32601,PLAY    ,      13
-   32652,PLAY    ,       2
-   32652,PLAY    ,       6
-   32702,MEASURE ,       0
+   32652,PLAY    ,       9
+   32652,PLAY    ,      12
    32702,HAKU    ,       0
+   32702,PLAY    ,      10
+   32702,PLAY    ,      13
+   32753,PLAY    ,       2
+   32753,PLAY    ,       6
    32803,HAKU    ,       0
    32905,HAKU    ,       0
+   33006,MEASURE ,       0
    33006,HAKU    ,       0
-   33107,MEASURE ,       0
    33107,HAKU    ,       0
    33208,HAKU    ,       0
    33309,HAKU    ,       0
    33410,HAKU    ,       0
    33511,MEASURE ,       0
    33511,HAKU    ,       0
-   33511,PLAY    ,      11
-   33562,PLAY    ,       4
    33612,HAKU    ,       0
-   33612,PLAY    ,       6
-   33612,PLAY    ,      14
-   33663,PLAY    ,       5
-   33663,PLAY    ,       8
+   33612,PLAY    ,      11
+   33663,PLAY    ,       4
    33713,HAKU    ,       0
-   33764,PLAY    ,       0
-   33764,PLAY    ,      15
+   33713,PLAY    ,       6
+   33713,PLAY    ,      14
+   33764,PLAY    ,       5
+   33764,PLAY    ,       8
    33815,HAKU    ,       0
-   33815,PLAY    ,       3
-   33815,PLAY    ,      12
-   33916,MEASURE ,       0
+   33865,PLAY    ,       0
+   33865,PLAY    ,      15
    33916,HAKU    ,       0
-   33916,PLAY    ,       7
-   33916,PLAY    ,      11
-   33966,PLAY    ,       9
+   33916,PLAY    ,       3
+   33916,PLAY    ,      12
+   34017,MEASURE ,       0
    34017,HAKU    ,       0
-   34017,PLAY    ,       2
-   34017,PLAY    ,       6
-   34067,PLAY    ,       8
-   34067,PLAY    ,      13
+   34017,PLAY    ,       7
+   34017,PLAY    ,      11
+   34067,PLAY    ,       9
    34118,HAKU    ,       0
-   34169,PLAY    ,       0
-   34169,PLAY    ,      12
+   34118,PLAY    ,       2
+   34118,PLAY    ,       6
+   34169,PLAY    ,       8
+   34169,PLAY    ,      13
    34219,HAKU    ,       0
-   34219,PLAY    ,       3
-   34219,PLAY    ,      15
-   34320,MEASURE ,       0
+   34270,PLAY    ,       0
+   34270,PLAY    ,      12
    34320,HAKU    ,       0
-   34320,PLAY    ,       4
-   34371,PLAY    ,       5
+   34320,PLAY    ,       3
+   34320,PLAY    ,      15
    34421,HAKU    ,       0
-   34421,PLAY    ,       7
-   34472,PLAY    ,       6
+   34421,PLAY    ,       4
+   34472,PLAY    ,       5
+   34522,MEASURE ,       0
    34522,HAKU    ,       0
-   34522,PLAY    ,      12
-   34573,PLAY    ,       9
+   34522,PLAY    ,       7
+   34573,PLAY    ,       6
    34624,HAKU    ,       0
-   34624,PLAY    ,      15
-   34674,PLAY    ,      10
-   34725,MEASURE ,       0
+   34624,PLAY    ,      12
+   34674,PLAY    ,       9
    34725,HAKU    ,       0
-   34725,PLAY    ,       0
-   34750,PLAY    ,       1
-   34775,PLAY    ,       2
-   34801,PLAY    ,       3
+   34725,PLAY    ,      15
+   34775,PLAY    ,      10
    34826,HAKU    ,       0
-   34826,PLAY    ,       4
-   34826,PLAY    ,       8
-   34876,PLAY    ,      11
+   34826,PLAY    ,       0
+   34851,PLAY    ,       1
+   34876,PLAY    ,       2
+   34902,PLAY    ,       3
    34927,HAKU    ,       0
-   34927,PLAY    ,      13
-   34978,PLAY    ,       7
-   34978,PLAY    ,      15
+   34927,PLAY    ,       4
+   34927,PLAY    ,       8
+   34978,PLAY    ,      11
+   35028,MEASURE ,       0
    35028,HAKU    ,       0
-   35028,PLAY    ,       5
-   35028,PLAY    ,       9
-   35129,MEASURE ,       0
+   35028,PLAY    ,      13
+   35079,PLAY    ,       7
+   35079,PLAY    ,      15
    35129,HAKU    ,       0
-   35129,PLAY    ,       3
-   35129,PLAY    ,       6
+   35129,PLAY    ,       5
+   35129,PLAY    ,       9
    35230,HAKU    ,       0
-   35230,PLAY    ,       0
-   35281,PLAY    ,       1
+   35230,PLAY    ,       3
+   35230,PLAY    ,       6
    35331,HAKU    ,       0
-   35331,PLAY    ,      11
-   35382,PLAY    ,      10
+   35331,PLAY    ,       0
+   35382,PLAY    ,       1
    35433,HAKU    ,       0
-   35433,PLAY    ,       8
-   35483,PLAY    ,       4
+   35433,PLAY    ,      11
+   35483,PLAY    ,      10
    35534,MEASURE ,       0
    35534,HAKU    ,       0
-   35534,PLAY    ,       7
-   35559,PLAY    ,       6
-   35584,PLAY    ,       5
+   35534,PLAY    ,       8
+   35584,PLAY    ,       4
    35635,HAKU    ,       0
-   35635,PLAY    ,      15
-   35685,PLAY    ,       9
+   35635,PLAY    ,       7
+   35660,PLAY    ,       6
+   35685,PLAY    ,       5
    35736,HAKU    ,       0
-   35736,PLAY    ,       2
-   35736,PLAY    ,       3
-   35787,PLAY    ,      13
-   35787,PLAY    ,      14
+   35736,PLAY    ,      15
+   35787,PLAY    ,       9
    35837,HAKU    ,       0
-   35837,PLAY    ,       4
-   35862,PLAY    ,       8
-   35888,PLAY    ,      12
-   35938,MEASURE ,       0
+   35837,PLAY    ,       2
+   35837,PLAY    ,       3
+   35888,PLAY    ,      13
+   35888,PLAY    ,      14
    35938,HAKU    ,       0
-   35938,PLAY    ,       7
-   35938,PLAY    ,      10
+   35938,PLAY    ,       4
+   35963,PLAY    ,       8
+   35989,PLAY    ,      12
+   36039,MEASURE ,       0
    36039,HAKU    ,       0
-   36039,PLAY    ,       0
-   36090,PLAY    ,      15
+   36039,PLAY    ,       7
+   36039,PLAY    ,      10
    36140,HAKU    ,       0
-   36140,PLAY    ,      13
-   36191,PLAY    ,       2
+   36140,PLAY    ,       0
+   36191,PLAY    ,      15
    36242,HAKU    ,       0
-   36242,PLAY    ,       4
-   36292,PLAY    ,      11
-   36343,MEASURE ,       0
+   36242,PLAY    ,      13
+   36292,PLAY    ,       2
    36343,HAKU    ,       0
-   36343,PLAY    ,       5
-   36368,PLAY    ,       6
-   36393,PLAY    ,       9
-   36419,PLAY    ,      10
+   36343,PLAY    ,       4
+   36393,PLAY    ,      11
    36444,HAKU    ,       0
-   36444,PLAY    ,       8
-   36494,PLAY    ,       7
+   36444,PLAY    ,       5
+   36469,PLAY    ,       6
+   36494,PLAY    ,       9
+   36520,PLAY    ,      10
+   36545,MEASURE ,       0
    36545,HAKU    ,       0
-   36545,PLAY    ,       1
-   36596,PLAY    ,      14
+   36545,PLAY    ,       8
+   36596,PLAY    ,       7
    36646,HAKU    ,       0
-   36646,PLAY    ,       4
-   36646,PLAY    ,      12
-   36697,PLAY    ,       3
-   36697,PLAY    ,      11
-   36747,MEASURE ,       0
+   36646,PLAY    ,       1
+   36697,PLAY    ,      14
    36747,HAKU    ,       0
-   36747,PLAY    ,       0
-   36747,PLAY    ,       5
+   36747,PLAY    ,       4
+   36747,PLAY    ,      12
+   36798,PLAY    ,       3
+   36798,PLAY    ,      11
    36848,HAKU    ,       0
-   36848,PLAY    ,       7
-   36899,PLAY    ,       8
+   36848,PLAY    ,       0
+   36848,PLAY    ,       5
    36949,HAKU    ,       0
-   36949,PLAY    ,       6
-   37000,PLAY    ,      10
+   36949,PLAY    ,       7
+   37000,PLAY    ,       8
+   37051,MEASURE ,       0
    37051,HAKU    ,       0
-   37051,PLAY    ,       9
-   37101,PLAY    ,      15
-   37152,MEASURE ,       0
+   37051,PLAY    ,       6
+   37101,PLAY    ,      10
    37152,HAKU    ,       0
-   37152,PLAY    ,       4
-   37177,PLAY    ,      14
-   37202,PLAY    ,      13
-   37228,PLAY    ,       7
+   37152,PLAY    ,       9
+   37202,PLAY    ,      15
    37253,HAKU    ,       0
-   37253,PLAY    ,       5
-   37303,PLAY    ,      11
+   37253,PLAY    ,       4
+   37278,PLAY    ,      14
+   37303,PLAY    ,      13
+   37329,PLAY    ,       7
    37354,HAKU    ,       0
-   37354,PLAY    ,       0
-   37379,PLAY    ,      10
-   37405,PLAY    ,       8
-   37430,PLAY    ,       6
+   37354,PLAY    ,       5
+   37405,PLAY    ,      11
    37455,HAKU    ,       0
-   37455,PLAY    ,       9
-   37506,PLAY    ,       2
-   37506,PLAY    ,      14
+   37455,PLAY    ,       0
+   37480,PLAY    ,      10
+   37506,PLAY    ,       8
+   37531,PLAY    ,       6
    37556,MEASURE ,       0
    37556,HAKU    ,       0
-   37657,HAKU    ,       0
-   37758,HAKU    ,       0
-   37860,HAKU    ,       0
-   37961,MEASURE ,       0
-   37961,HAKU    ,       0
-   38062,HAKU    ,       0
-   38163,HAKU    ,       0
-   38264,HAKU    ,       0
-   38365,MEASURE ,       0
-   38365,HAKU    ,       0
-   38466,HAKU    ,       0
-   38567,HAKU    ,       0
-   38669,HAKU    ,       0
-   38770,MEASURE ,       0
-   38770,HAKU    ,       0
-   38871,HAKU    ,       0
-   38972,HAKU    ,       0
-   39073,HAKU    ,       0
-   39174,MEASURE ,       0
-   39174,HAKU    ,       0
-   39275,HAKU    ,       0
-   39376,HAKU    ,       0
-   39478,HAKU    ,       0
-   39579,MEASURE ,       0
-   39579,HAKU    ,       0
-   39680,HAKU    ,       0
-   39781,HAKU    ,       0
-   39882,HAKU    ,       0
-   39983,MEASURE ,       0
-   39983,HAKU    ,       0
-   40084,HAKU    ,       0
-   40185,HAKU    ,       0
-   40287,HAKU    ,       0
-   40388,MEASURE ,       0
-   40388,HAKU    ,       0
-   40489,HAKU    ,       0
-   40590,HAKU    ,       0
-   40691,HAKU    ,       0
-   40792,MEASURE ,       0
-   40792,HAKU    ,       0
-   40893,HAKU    ,       0
-   40994,HAKU    ,       0
-   41096,HAKU    ,       0
-   41197,MEASURE ,       0
-   41197,HAKU    ,       0
-   41298,HAKU    ,       0
-   41399,HAKU    ,       0
-   41500,HAKU    ,       0
-   41601,MEASURE ,       0
-   41601,HAKU    ,       0
-   41702,HAKU    ,       0
-   41803,HAKU    ,       0
-   41905,HAKU    ,       0
-   42006,MEASURE ,       0
-   42006,HAKU    ,       0
-   42107,HAKU    ,       0
-   42208,HAKU    ,       0
-   42309,HAKU    ,       0
-   42410,MEASURE ,       0
-   42410,HAKU    ,       0
-   42511,HAKU    ,       0
-   42612,HAKU    ,       0
-   42713,HAKU    ,       0
-   42815,MEASURE ,       0
-   42815,HAKU    ,       0
-   42916,HAKU    ,       0
-   43017,HAKU    ,       0
-   43118,HAKU    ,       0
-   43219,MEASURE ,       0
-   43219,HAKU    ,       0
-   43320,HAKU    ,       0
-   43421,HAKU    ,       0
-   43522,HAKU    ,       0
-   43624,MEASURE ,       0
-   43624,HAKU    ,       0
-   43725,HAKU    ,       0
-   43826,HAKU    ,       0
-   43927,HAKU    ,       0
-   44028,MEASURE ,       0
-   44028,HAKU    ,       0
-   44129,HAKU    ,       0
-   44230,HAKU    ,       0
-   44331,HAKU    ,       0
-   44433,MEASURE ,       0
-   44433,HAKU    ,       0
-   44534,HAKU    ,       0
-   44635,HAKU    ,       0
-   44736,HAKU    ,  

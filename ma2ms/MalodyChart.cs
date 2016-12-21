@@ -45,7 +45,7 @@ namespace ma2ms {
     public struct Extra {
         public Test test { get; set; }
     }
-    class MalodyChart {
+    public class MalodyChart {
         public Meta meta { get; set; }
         public List<Time> time { get; set; }
         public List<Note> note { get; set; }

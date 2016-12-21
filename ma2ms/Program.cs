@@ -11,45 +11,34 @@ using System.ComponentModel;
 using ma2ms;
 
 namespace ma2ms {
-    public struct Note_ms {
-        public double time;
-        public int index;
-        public Note_ms(double time, int index) {
-            this.time = time;
-            this.index = index;
-        }
-    }
-    public struct Note_jbt {
-        public int time;
-        public string type;
-        public int index;
-        public Note_jbt(double time, string s, int index) {
-            this.time = (int)(time * 3  / 10000);
-            this.type = s;
-            this.index = index;
-        }
-        public Note_jbt(int time, string s, int index) {
-            this.time = time ;
-            this.type = s;
-            this.index = index;
-        }
-    }
 
-    class typeComparer : IComparer<string> {
-        Dictionary<string, int> dict = new Dictionary<string, int> {{"PLAY",0},{"TEMPO",1},{"HAKU",2},{"MEASURE",3} };
-        public int Compare(string x, string y) {
-            return Comparer<int>.Default.Compare(dict[x], dict[y]);
-        }
-    }
 
     class Program {
+
+        //TODO:添加自动加上END标志的功能
+        static void Main(string[] args) {
+            string fileinput = @"1.mc";
+            MalodyChart mc = JsonConvert.DeserializeObject<MalodyChart>(File.ReadAllText(fileinput), new JsonSerializerSettings { DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate });
+            eveChart ec = new eveChart(mc, 132);
+            FileStream fs = new FileStream("1.eve", FileMode.Create, FileAccess.ReadWrite);
+            ec.Write(fs);
+        }
+
+
+
+
+        /////////////////////////////
+        //以下是旧版本
+        /////////////////////////////
         const string MEASURE = "MEASURE";
         const string HAKU = "HAKU";
         const string TEMPO = "TEMPO";
         const string PLAY = "PLAY";
+        const string END = "END";
         const int MAX_BEAT = 420;
         const int bpmeasure = 4;
-        static void Main(string[] args) {
+
+        static void OldMain(string[] args) {
             string fileinput = @"1.mc";
             MalodyChart mc = JsonConvert.DeserializeObject<MalodyChart>(File.ReadAllText(fileinput), new JsonSerializerSettings { DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate });
             double[] beat_dims = new double[MAX_BEAT];
@@ -93,11 +82,11 @@ namespace ma2ms {
             for (int i = 1; i < MAX_BEAT; i++) {
                 beats[i] += beats[i - 1] + beat_dims[i - 1];
             }
-            List<Note_ms> note_ms = new List<Note_ms>();
+            List<Note_us> note_ms = new List<Note_us>();
             foreach (var note in mc.note) {
                 double time;
                 time = beats[note.beat[0]] + ((double)note.beat[1] / (double)note.beat[2]) * beat_dims[note.beat[0]];
-                if (note.index != -99) note_ms.Add(new Note_ms(time, note.index));
+                if (note.index != -99) note_ms.Add(new Note_us(time, note.index));
             }
 
 
@@ -124,10 +113,10 @@ namespace ma2ms {
 
             var query = note_jbt.OrderBy(o => o.time).ThenByDescending(o => o.type, new typeComparer()).Select(o => new { o.time, o.type, o.index });
             //var note_ordered = from o in note_jbt orderby o.time,o.type  select o;
-            FileStream fs = new FileStream("1.eve",FileMode.Create,FileAccess.ReadWrite);
+            FileStream fs = new FileStream("1.eve", FileMode.Create, FileAccess.ReadWrite);
             StreamWriter sw = new StreamWriter(fs);
             foreach (var note in query) {
-                string s=string.Format("{0,8},{1,-8},{2,8}",note.time,note.type,note.index);
+                string s = string.Format("{0,8},{1,-8},{2,8}", note.time, note.type, note.index);
                 sw.WriteLine(s);
             }
 
