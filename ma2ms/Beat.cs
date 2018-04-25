@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ma2ms {
+namespace mc2eve {
 
     public struct Beat {
         public double dim;
@@ -94,20 +94,26 @@ namespace ma2ms {
                 last_time = time;
                 last_dim = 60000000 / bpm;
 
-                Beat b = new Beat(last_time + last_dim, bpm, is_measure, is_timingpoint);
+                // Start first measure on 0 (last_time, not last_time+last_dim)
+                Beat b = new Beat(last_time, bpm, is_measure, is_timingpoint);
                 beats.Add(b);
 
                 lines.Add(b);
 
-                if (time > length) break;
+                if (time > length)
+                {
+                    lines.Add(new Note_jbt(b.time, NoteType.END, (int)b.dim));
+                    break;
+                }
                 i++;
             }
 
             foreach (Note mcnote in mc.note) {
-
+                
                 if (mcnote.index == index_null) continue;
 
                 Beat current_beat = beats[mcnote.beat[0]];
+                
                 double time = current_beat.time + ((double)mcnote.beat[1] / (double)mcnote.beat[2]) * current_beat.dim;
                 Note_jbt note = new Note_jbt(time, NoteType.PLAY, mcnote.index);
 
@@ -204,7 +210,7 @@ namespace ma2ms {
     }
 
     class typeComparer : IComparer<string> {
-        Dictionary<string, int> dict = new Dictionary<string, int> { { "PLAY", 0 }, { "TEMPO", 1 }, { "HAKU", 2 }, { "MEASURE", 3 } };
+        Dictionary<string, int> dict = new Dictionary<string, int> { { "PLAY", 0 }, { "TEMPO", 1 }, { "HAKU", 2 }, { "MEASURE", 3 }, { "END", 4 } };
         public int Compare(string x, string y) {
             return Comparer<int>.Default.Compare(dict[x], dict[y]);
         }
