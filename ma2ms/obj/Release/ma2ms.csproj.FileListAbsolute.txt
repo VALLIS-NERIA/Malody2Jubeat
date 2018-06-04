@@ -1,0 +1,12 @@
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Release\Newtonsoft.Json.dll
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Release\policy.2.0.taglib-sharp.dll
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Release\taglib-sharp.dll
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Release\Newtonsoft.Json.xml
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Release\policy.2.0.taglib-sharp.config
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\obj\Release\ma2ms.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Release\mc2eve.exe.config
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Release\mc2eve.exe
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Release\mc2eve.pdb
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\obj\Release\ma2ms.csprojResolveAssemblyReference.cache
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\obj\Release\mc2eve.exe
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\obj\Release\mc2eve.pdb

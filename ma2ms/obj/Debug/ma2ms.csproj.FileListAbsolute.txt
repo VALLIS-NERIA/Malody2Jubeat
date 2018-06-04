@@ -6,3 +6,15 @@ D:\真我的文档\VSProjects\ma2ms\ma2ms\bin\Debug\Newtonsoft.Json.dll
 D:\真我的文档\VSProjects\ma2ms\ma2ms\bin\Debug\Newtonsoft.Json.xml
 D:\真我的文档\VSProjects\ma2ms\ma2ms\obj\Debug\ma2ms.exe
 D:\真我的文档\VSProjects\ma2ms\ma2ms\obj\Debug\ma2ms.pdb
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Debug\ma2ms.exe.config
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Debug\ma2ms.exe
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Debug\ma2ms.pdb
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\obj\Debug\ma2ms.csprojResolveAssemblyReference.cache
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\obj\Debug\ma2ms.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\obj\Debug\ma2ms.exe
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\obj\Debug\ma2ms.pdb
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Debug\taglib-sharp.dll
+C:\Users\Max\Desktop\Jubeat Science\Malody2Jubeat\ma2ms\bin\Debug\policy.2.0.taglib-sharp.config

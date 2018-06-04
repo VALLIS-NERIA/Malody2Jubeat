@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ma2ms {
+namespace mc2eve {
     public struct Song {
         public string titile { get; set; }
         public string artist { get; set; }
