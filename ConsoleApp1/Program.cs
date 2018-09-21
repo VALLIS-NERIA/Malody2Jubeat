@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Runtime.Serialization;
-using System.Runtime.Serialization.Json;
-using Newtonsoft.Json;
-using System.IO;
-
-namespace Malody2Eve {
-
+﻿namespace ConsoleApp1 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    using Malody2Eve;
 
     class Program {
 
@@ -26,8 +21,9 @@ namespace Malody2Eve {
         //    fs.Close();
         //}
 
-        static void Main() {
-            var mc = JsonConvert.DeserializeObject<MalodyChart>(File.ReadAllText("test.mc"));
+        static void Main(string[] args) {
+            var mc = MalodyChart.FromFile("test.mc");
+            var eve = EveChart.FromMalodySeconds(mc, 120000000);
             ;
         }
     }

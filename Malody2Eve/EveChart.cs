@@ -11,7 +11,7 @@ namespace Malody2Eve {
     using System.Linq;
     using System.Text;
 
-    public static class NoteTypeString {
+    public static class EveNoteTypeExtension {
         private static Dictionary<EveNoteType, string> _name = new Dictionary<EveNoteType, string>
         {
             [EveNoteType.Measure] = Measure,
@@ -52,7 +52,7 @@ namespace Malody2Eve {
     public class EveChart {
         /// <summary>
         /// Gets or sets the beats per measure. e.g., for a 3/4 song, this is 3.
-        /// The default value is 4 and this property 
+        /// The default value is 4 and this property can be set only once.
         /// </summary>
         public int BeatPerMeasure {
             get => this._beatPerMeasure;
@@ -111,12 +111,13 @@ namespace Malody2Eve {
         public static EveChart FromMalodySeconds(MalodyChart mc, int seconds, int beatPerMeasure) {
             try {
                 checked {
-                    return new EveChart(mc, seconds * 1000000, beatPerMeasure);
+                    var us = seconds * 1000000;
                 }
+
+                return new EveChart(mc, seconds * 1000000, beatPerMeasure);
             }
             catch (OverflowException) {
-                Console.WriteLine("The song is too long.");
-                return null;
+                throw new ArgumentOutOfRangeException(nameof(seconds), "The song is too long.");
             }
         }
 
@@ -136,14 +137,14 @@ namespace Malody2Eve {
             double lastBpm = 0;
 
             while (true) {
-                double bpm;
-                bool isMeasure;
-                bool isTimingpoint;
+                double currentBpm;
+                bool isMeasure = false;
+                bool isTimingpoint = false;
 
                 // timing point
                 if (this._timingPoints.ContainsKey(i)) {
-                    bpm = this._timingPoints[i];
-                    lastBpm = bpm;
+                    currentBpm = this._timingPoints[i];
+                    lastBpm = currentBpm;
                     isMeasure = true;
                     isTimingpoint = true;
                     j = 0;
@@ -151,32 +152,22 @@ namespace Malody2Eve {
 
                 // measures
                 else {
-                    bpm = lastBpm;
-                    isTimingpoint = false;
+                    currentBpm = lastBpm;
                     if (j++ == this.BeatPerMeasure) {
                         isMeasure = true;
                         j = 0;
                     }
-                    else {
-                        isMeasure = false;
-                    }
                 }
 
                 lastTime = lastTime + lastDim;
-                lastDim = 60000000d / bpm;
+                lastDim = 60000000d / currentBpm;
 
-                // Start first measure on 0 (last_time, not last_time+last_dim)
-                var b = new EveBeat(lastTime, bpm, isMeasure, isTimingpoint);
+                var b = new EveBeat(lastTime, currentBpm, isMeasure, isTimingpoint);
                 this._beats.Add(b);
 
                 this._notes.Add(new EveNote(b.Time, EveNoteType.Haku, 0));
-                if (b.IsTimingpoint) {
-                    this._notes.Add(new EveNote(b.Time, EveNoteType.Tempo, (int)b.Dim));
-                }
-
-                if (b.IsMeasure) {
-                    this._notes.Add(new EveNote(b.Time, EveNoteType.Measure, 0));
-                }
+                if (b.IsTimingpoint) this._notes.Add(new EveNote(b.Time, EveNoteType.Tempo, (int)b.Dim));
+                if (b.IsMeasure) this._notes.Add(new EveNote(b.Time, EveNoteType.Measure, 0));
 
                 if (lastTime > microseconds) {
                     this._notes.Add(new EveNote(b.Time, EveNoteType.End, (int)b.Dim));
@@ -193,7 +184,14 @@ namespace Malody2Eve {
 
                 var time = currentBeat.Time + (mcnote.Numerator / (double)mcnote.Denominator) * currentBeat.Dim;
 
-                this._notes.Add(new EveNote(time, EveNoteType.Play, mcnote.index.Value));
+                if (mcnote.IsHold) {
+                    var endBeat = this._beats[mcnote.endbeat[0]];
+                    var endTime = endBeat.Time + (mcnote.endbeat[1] / (double)mcnote.endbeat[2]) * endBeat.Dim;
+                    this._notes.Add(EveNote.CreateHold(time, endTime, (int)mcnote.index, (int)mcnote.endindex));
+                }
+                else {
+                    this._notes.Add(new EveNote(time, EveNoteType.Play, mcnote.index.Value));
+                }
             }
 
             this._notes.Sort(new EveTypeComparer());
@@ -251,8 +249,22 @@ namespace Malody2Eve {
                 return $"{this.Time, 8},{this.Type, -8},{this.Index, 8}";
             }
 
-            public static EveNote CreateHold(int beginTimeEve, int endTimeEve, int holdIndex, int tailIndex)  {
-                if (holdIndex > 15 || tailIndex > 15 || tailIndex == holdIndex || endTimeEve<=beginTimeEve) {
+            public static EveNote CreateHold(double beginTimeUs, double endTimeUs, int holdIndex, int tailIndex) {
+                return CreateHold((int)(beginTimeUs * 3 / 10000), (int)(endTimeUs * 3 / 10000), holdIndex, tailIndex);
+            }
+
+            public static EveNote CreateHold(int beginTimeEve, int endTimeEve, int holdIndex, int tailIndex) {
+                /*
+                 * Index of a hold note:
+                 * 32               16        8  6  4  1
+                 * -------- -------- -------- -- -- ----
+                 * 00000000 00000000 00101101 01 11 0100
+                 * \---    hold time     ---/ ^  ^  ^
+                 *                            |  |  |= index of the hold panel
+                 *               hold length =|  |= hold direction: down00, up01, right10, left11
+                 *               \----    e.g. hold 4 and tail is 6, it is left, length 2   ----/
+                 */
+                if (holdIndex > 15 || tailIndex > 15 || tailIndex == holdIndex || endTimeEve <= beginTimeEve) {
                     throw new ArgumentException("Invalid hold.");
                 }
 
@@ -265,41 +277,59 @@ namespace Malody2Eve {
                 sbyte len;
                 byte h;
                 if (tailIndex / 4 == holdIndex / 4) {
-                    // the same row
-                    len = (sbyte)(tailIndex - holdIndex);
-                    // right: 10; left: 11
-                    if (len > 0)
+                    // same row
+                    checked {
+                        len = (sbyte)(tailIndex - holdIndex);
+                    }
+
+                    // right(tail<hold): 10; left: 11
+                    if (len < 0)
                         h = 0b10;
                     else
                         h = 0b11;
                 }
                 else if (tailIndex % 4 == holdIndex % 4) {
                     // same column
-                    len = (sbyte)(tailIndex % 4 - holdIndex % 4);
-                    // up: 01; down: 00;
+                    checked {
+                        len = (sbyte)(tailIndex % 4 - holdIndex % 4);
+                    }
+
+                    // up(tail>hold): 01; down: 00;
                     if (len > 0)
-                        h = 0b00;
-                    else
                         h = 0b01;
+                    else
+                        h = 0b00;
                 }
                 else {
-                    throw new ArgumentException("The begin and end of the hold is not at the same row or column");
+                    throw new ArgumentException("The begin and end of the hold is not at the same row or column.");
                 }
-                h = (byte)(h | (Math.Abs(len) - 1) << 2);
 
-                uint info;
-                info = (uint)(endTimeEve - beginTimeEve);
-                info <<= 16;
-                info |= (ushort)(h << 8);
-                info |= ((uint)holdIndex & 0xff);
-                note.Index = (int)info;
+                checked {
+                    // len
+                    h = (byte)(h | (Math.Abs(len)) << 2);
+
+                    uint info;
+                    info = (uint)(endTimeEve - beginTimeEve);
+                    info <<= 8;
+                    info |= (ushort)(h << 4);
+                    info |= ((uint)holdIndex & 0xff);
+                    note.Index = (int)info;
+                }
 
                 return note;
             }
         }
 
         private class EveTypeComparer : IComparer<EveNote> {
-            private readonly Dictionary<string, int> _dict = new Dictionary<string, int> { { "PLAY", 0 }, { "TEMPO", 1 }, { "HAKU", 2 }, { "MEASURE", 3 }, { "END", 4 } };
+            private readonly Dictionary<string, int> _dict = new Dictionary<string, int>
+            {
+                ["END"] = -4,
+                ["MEASURE"] = -3,
+                ["HAKU"] = -2,
+                ["TEMPO"] = -1,
+                ["PLAY"] = 0,
+                ["HOLD"] = 0,
+            };
 
             public int Compare(EveNote x, EveNote y) {
                 var res = Comparer<int>.Default.Compare(x.Time, y.Time);
@@ -307,7 +337,7 @@ namespace Malody2Eve {
                     res = Comparer<int>.Default.Compare(this._dict[x.Type], this._dict[y.Type]);
                 }
 
-                return -res;
+                return res;
             }
         }
     }
