@@ -170,7 +170,7 @@ namespace Malody2Eve {
                 if (b.IsMeasure) this._notes.Add(new EveNote(b.Time, EveNoteType.Measure, 0));
 
                 if (lastTime > microseconds) {
-                    this._notes.Add(new EveNote(b.Time, EveNoteType.End, (int)b.Dim));
+                    this._notes.Add(new EveNote(b.Time, EveNoteType.End, 0));
                     break;
                 }
 
