@@ -18,7 +18,7 @@ namespace Malody2Eve {
             [EveNoteType.Haku] = Haku,
             [EveNoteType.Tempo] = Tempo,
             [EveNoteType.Play] = Play,
-            [EveNoteType.Hold] = Hold,
+            [EveNoteType.Long] = Long,
             [EveNoteType.End] = End
         };
 
@@ -26,7 +26,7 @@ namespace Malody2Eve {
         public const string Haku = "HAKU";
         public const string Tempo = "TEMPO";
         public const string Play = "PLAY";
-        public const string Hold = "HOLD";
+        public const string Long = "LONG";
         public const string End = "END";
 
         public static string String(this EveNoteType type) => _name[type];
@@ -45,7 +45,7 @@ namespace Malody2Eve {
         Play,
 
         // hold
-        Hold,
+        Long,
         End
     }
 
@@ -270,7 +270,7 @@ namespace Malody2Eve {
 
                 var note = new EveNote
                 {
-                    _type = EveNoteType.Hold,
+                    _type = EveNoteType.Long,
                     Time = beginTimeEve
                 };
 
