@@ -1,6 +1,7 @@
 ﻿namespace ConsoleApp1 {
     using System;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
@@ -22,9 +23,21 @@
         //}
 
         static void Main(string[] args) {
-            var mc = MalodyChart.FromFile("test.mc");
-            var eve = EveChart.FromMalodySeconds(mc, 120000000);
-            ;
+            while (true) {
+                try {
+                    Console.WriteLine("File name:");
+                    var fn = Console.ReadLine();
+                    Console.WriteLine("Length (seconds):");
+                    var time = int.Parse(Console.ReadLine());
+                    var mc = MalodyChart.FromFile(fn);
+                    var eve = EveChart.FromMalodySeconds(mc, time);
+                    File.WriteAllText(fn + ".eve", eve.ToString());
+                }
+                catch (Exception e) {
+                    Console.WriteLine("Exception: " + e.Message);
+                    Console.WriteLine(e.StackTrace);
+                }
+            }
         }
     }
 }
