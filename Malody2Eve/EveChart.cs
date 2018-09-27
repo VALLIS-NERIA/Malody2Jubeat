@@ -1,10 +1,4 @@
-﻿//  --------------------------------------------------------------------------------------------------------------------
-//  <copyright file="Beat.cs" company="Microsoft">
-//    Copyright (c) Microsoft Corporation.  All rights reserved.
-//  </copyright>
-//  --------------------------------------------------------------------------------------------------------------------
-
-namespace Malody2Eve {
+﻿namespace Malody2Eve {
     using System;
     using System.Collections.Generic;
     using System.IO;
